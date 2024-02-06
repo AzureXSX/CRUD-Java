@@ -27,6 +27,7 @@ function Main() {
                     name={product.productName}
                     description={product.description}
                     price={product.price}
+                    images={product.images}
                     updateProducts={updateProducts}
                     >
                     </Product>

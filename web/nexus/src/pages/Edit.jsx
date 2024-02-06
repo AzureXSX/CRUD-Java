@@ -13,8 +13,8 @@ function Edit() {
                 <input type="text" id="price" placeholder="Price"></input>    
                 <button className={styles.addButton} onClick={async () => {
                     await editProduct(id);
-                    window.location.href = "/";
                 }}>Update</button> 
+                <input type="file" id="file" name="file" accept="image/*" multiple></input>
            </div>
         </>
     );

@@ -14,8 +14,9 @@ function Add() {
                 <input type="text" id="price" placeholder="Price"></input>    
                 <button className={styles.addButton} onClick={async () => {
                     await addProduct();
-                    window.location.href = "/";
+                    // window.location.href = "/";
                 }}>Add</button> 
+                <input type="file" id="file" name="file" accept="image/*" multiple></input>
            </div>
         </>
     );
